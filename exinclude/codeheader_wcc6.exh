@@ -6,11 +6,7 @@
 #include <string>
 #include <maniftest_wcc6.h>
 #include <commctrl.h>
-using namespace std;
-
-int main(int argc, char* argv[]) {
-    std::string path = argv[0];
-    size_t pos = path.find_last_of("\\/");
-    std::string kzxdexename = (pos != std::string::npos) ? path.substr(pos+1) : path;
-    std::string runpath = (pos != std::string::npos) ? path.substr(0, pos+1) : "";
-
+#include "krnln.h"
+using std::string;
+string runpath;
+string exeName;

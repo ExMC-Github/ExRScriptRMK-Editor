@@ -5,9 +5,6 @@
 #include <cstdio>
 #include <string>
 #include "krnln.h"
-using namespace std;
-
-int main(int argc, char* argv[]) {
-    string exeName = getexename(argc, argv);
-    string runpath = getrunpath(argc, argv);
-    
+using std::string;
+string runpath;
+string exeName;
