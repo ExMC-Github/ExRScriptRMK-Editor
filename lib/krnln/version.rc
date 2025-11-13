@@ -1,0 +1,25 @@
+1 VERSIONINFO
+FILEVERSION 1,0,0,0
+PRODUCTVERSION 1,0,0,0
+FILEOS 0x40004
+FILETYPE 0x2
+BEGIN
+  BLOCK "StringFileInfo"
+  BEGIN
+    BLOCK "080404B0"
+    BEGIN
+      VALUE "CompanyName", "ExRFy Software Studio"
+      VALUE "FileDescription", "ExRScript RMK Native Core Cpp"
+      VALUE "FileVersion", "1.0.0.0"
+      VALUE "InternalName", "Kernel"
+      VALUE "LegalCopyright", "Copyright (C) 2025 ExRFy"
+      VALUE "OriginalFilename", "krnln.fnr"
+      VALUE "ProductName", "ExRScriptRMK"
+      VALUE "ProductVersion", "1.0.0.0"
+    END
+  END
+  BLOCK "VarFileInfo"
+  BEGIN
+    VALUE "Translation", 0x0804, 0x04B0
+  END
+END
